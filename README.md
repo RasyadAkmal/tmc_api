@@ -1,5 +1,5 @@
 # Dokumentasi API
-Spesification : Laravel 8.83.27
+Specification : Laravel 8.83.27
 
 ## Tabel Konten
 
