@@ -50,14 +50,14 @@ Specification : Laravel 8.83.27
 - **Endpoint:** `POST /api/search`
 - **Deskripsi:** Mencari produk berdasarkan filter (opsional).
 - **Query Parameter:**
-<u>*sku*:</u> Filter berdasarkan SKU, mendukung beberapa parameter.
-*name*: Filter berdasarkan nama (LIKE), mendukung beberapa parameter.
-*price_start*: Filter berdasarkan harga mulai.
-*price_end*: Filter berdasarkan harga akhir.
-*stock_start*: Filter berdasarkan stok mulai.
-*stock_end*: Filter berdasarkan stok akhir.
-*category_id*: Filter berdasarkan ID kategori, mendukung beberapa parameter.
-*category_name*: Filter berdasarkan nama kategori, mendukung beberapa parameter.
+- *sku*: Filter berdasarkan SKU, mendukung beberapa parameter.
+- *name*: Filter berdasarkan nama (LIKE), mendukung beberapa parameter.
+- *price_start*: Filter berdasarkan harga mulai.
+- *price_end*: Filter berdasarkan harga akhir.
+- *stock_start*: Filter berdasarkan stok mulai.
+- *stock_end*: Filter berdasarkan stok akhir.
+- *category_id*: Filter berdasarkan ID kategori, mendukung beberapa parameter.
+- *category_name*: Filter berdasarkan nama kategori, mendukung beberapa parameter.
 
 ## 3. Struktur Database
 
