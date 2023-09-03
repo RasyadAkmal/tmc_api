@@ -50,32 +50,32 @@ Specification : Laravel 8.83.27
 - **Endpoint:** `POST /api/search`
 - **Deskripsi:** Mencari produk berdasarkan filter (opsional).
 - **Query Parameter:**
-sku: Filter berdasarkan SKU, mendukung beberapa parameter.
-name: Filter berdasarkan nama (LIKE), mendukung beberapa parameter.
-price_start: Filter berdasarkan harga mulai.
-price_end: Filter berdasarkan harga akhir.
-stock_start: Filter berdasarkan stok mulai.
-stock_end: Filter berdasarkan stok akhir.
-category_id: Filter berdasarkan ID kategori, mendukung beberapa parameter.
-category_name: Filter berdasarkan nama kategori, mendukung beberapa parameter.
+- *sku*: Filter berdasarkan SKU, mendukung beberapa parameter.
+- *name*: Filter berdasarkan nama (LIKE), mendukung beberapa parameter.
+- *price_start*: Filter berdasarkan harga mulai.
+- *price_end*: Filter berdasarkan harga akhir.
+- *stock_start*: Filter berdasarkan stok mulai.
+- *stock_end*: Filter berdasarkan stok akhir.
+- *category_id*: Filter berdasarkan ID kategori, mendukung beberapa parameter.
+- *category_name*: Filter berdasarkan nama kategori, mendukung beberapa parameter.
 
 ## 3. Struktur Database
 
 ### A. Tabel 'categories'
-id: ID kategori (Integer, Auto-increment)
-name: Nama kategori (String)
-createdAt: Waktu pembuatan kategori (Timestamp)
+- **id**: ID kategori (Integer, Auto-increment)
+- **name**: Nama kategori (String)
+- **createdAt**: Waktu pembuatan kategori (Timestamp)
 
 ### B. Tabel 'products'
-id: ID kategori (Integer, Auto-increment)
-sku: SKU produk (String, Unique, Index)
-name: Nama produk (String)
-price: Harga produk (Unsigned BigInt)
-stock: Stok produk (Unsigned Integer)
-category_id: ID kategori produk (Unsigned Integer, Foreign Key ke Tabel Categories)
-createdAt: Waktu pembuatan produk (Timestamp)
+- **id**: ID kategori (Integer, Auto-increment)
+- **sku**: SKU produk (String, Unique, Index)
+- **name**: Nama produk (String)
+- **price**: Harga produk (Unsigned BigInt)
+- **stock**: Stok produk (Unsigned Integer)
+- **category_id**: ID kategori produk (Unsigned Integer, Foreign Key ke Tabel Categories)
+- **createdAt**: Waktu pembuatan produk (Timestamp)
 
-## 4. Pengujian
+## 4. Testing (PHP Unit)
 
 ### A. Pengujian /products
 Endpoint : /api/test/products
