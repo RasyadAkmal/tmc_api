@@ -50,7 +50,7 @@ Specification : Laravel 8.83.27
 - **Endpoint:** `POST /api/search`
 - **Deskripsi:** Mencari produk berdasarkan filter (opsional).
 - **Query Parameter:**
-*sku*: Filter berdasarkan SKU, mendukung beberapa parameter.
+<u>*sku*:</u> Filter berdasarkan SKU, mendukung beberapa parameter.
 *name*: Filter berdasarkan nama (LIKE), mendukung beberapa parameter.
 *price_start*: Filter berdasarkan harga mulai.
 *price_end*: Filter berdasarkan harga akhir.
